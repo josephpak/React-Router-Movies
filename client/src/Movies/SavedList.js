@@ -12,7 +12,7 @@ export default class SavedList extends Component {
         {this.props.list.map(movie => (
           <span className="saved-movie">{movie.title}</span>
         ))}
-        <div className="home-button">Home</div>
+        <a className="home-button" href="/">Home</a>
       </div>
     );
   }
